@@ -2,16 +2,16 @@
 class Gogitmoji < Formula
   desc "gogitmoji helps you write git commit messages containing gitmoji!"
   homepage "https://github.com/jamesdobson/gogitmoji"
-  version "1.1.0"
+  version "1.1.1"
   bottle :unneeded
 
   if OS.mac?
-    url "https://github.com/jamesdobson/gogitmoji/releases/download/v1.1.0/gogitmoji_1.1.0_macOS_x86_64.tar.gz"
-    sha256 "16e38badf6cef722fb5792456464f65abbaacf459868632efcfc7097bca9eefc"
+    url "https://github.com/jamesdobson/gogitmoji/releases/download/v1.1.1/gogitmoji_1.1.1_macOS_x86_64.tar.gz"
+    sha256 "14ddd23a2892fd4a85dc90b129fa3c0fd9c0c7ac50e524fe7bfd13a56e70111e"
   elsif OS.linux?
     if Hardware::CPU.intel?
-      url "https://github.com/jamesdobson/gogitmoji/releases/download/v1.1.0/gogitmoji_1.1.0_Linux_x86_64.tar.gz"
-      sha256 "d6717476b41fcb3647ce0b4a6e81954344ce9ad47296309ebc4a41100e7155e8"
+      url "https://github.com/jamesdobson/gogitmoji/releases/download/v1.1.1/gogitmoji_1.1.1_Linux_x86_64.tar.gz"
+      sha256 "3cf7f45204d174f691c1552f2d8a1b7915598f4863fbf37ffa00eb67229d5792"
     end
   end
 
